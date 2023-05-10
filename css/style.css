@@ -1,0 +1,109 @@
+body{
+background-color: #d6e6f2;
+}
+body:hover {
+    background-color:#f5eee6;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #2d4059;
+    font-family: 'Roboto', sans-serif;
+}
+.first{
+    margin-right: auto;
+    text-decoration: none;
+    color: white;
+}
+.item{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.about {
+    display: flex;
+}
+.harvey{
+    flex:1;
+}
+.law{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    align-self: center;
+    padding: 10px;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.heading{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #112d4e;
+    font-size: 30px;
+}
+.heading:hover {
+    color: #07689f;
+}
+.law{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.branch {
+    display: flex;
+    justify-content: space-evenly;
+}
+.legal{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
+.legal:hover {
+    background-color: #384259;
+    color: white;
+}
+.money {
+    display: flex;
+    justify-content: space-evenly;
+}
+.price {
+list-style: none;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+.price:hover {
+    color: white;
+    background-color: #384259;
+    padding: 30px;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    }
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.cta {
+    background-color: #3f72af;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 15px;
+    cursor: help;
+    flex:1;
+}
+.cta:hover {
+    background-color: #384259;
+}
